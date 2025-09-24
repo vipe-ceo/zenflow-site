@@ -25,7 +25,11 @@ const Header = () => {
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 gradient-primary rounded-full"></div>
+            <img 
+              src="https://tgndhyxvlebwghbeqvzx.supabase.co/storage/v1/object/sign/Site/logo.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84YjZjMjE0NS0yOGRlLTRhMjQtOGQ4Ni0wOGM4MWFiODU0YzUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaXRlL2xvZ28uc3ZnIiwiaWF0IjoxNzU4NzM0NjQ3LCJleHAiOjE3OTAyNzA2NDd9.0N5nb4aeLdilYpIl-W28HhdK523Y-apYcweMRLDe074" 
+              alt="Núcleo Massagem Logo" 
+              className="w-8 h-8 object-contain"
+            />
             <span className="text-xl font-serif font-bold text-foreground">
               Núcleo Massagem
             </span>
